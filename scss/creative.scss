@@ -1,0 +1,25 @@
+$primary: #002a91;
+$secondary: #f5f8ff;
+$dark: #646464;
+
+#mainNav {
+color: $dark;
+}
+
+#bio-image {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+// Import custom variables (overrides Bootstrap default variables)
+@import "./_variables.scss";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "./_global.scss";
+@import "./_navbar.scss";
+@import "./_masthead.scss";
+@import "./_portfolio.scss";

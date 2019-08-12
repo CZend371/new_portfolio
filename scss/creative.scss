@@ -12,6 +12,11 @@ color: $dark;
     height: 300px;
     margin-top: 20px;
 }
+.project-name {
+    text-align: center;
+}
+
+
 // Import custom variables (overrides Bootstrap default variables)
 @import "./_variables.scss";
 

@@ -14,8 +14,26 @@ color: $dark;
 }
 .project-name {
     text-align: center;
+    color: white;
 }
-
+#portfolio {
+    background-color: #002a91;
+}
+.project-category {
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+#portfolio-header {
+    padding-top: 35px;
+}
+.img-fluid {
+    width:100% !important;
+    height: 300px !important;
+}
+#filler {
+    margin-top:24px;
+}
 
 // Import custom variables (overrides Bootstrap default variables)
 @import "./_variables.scss";
